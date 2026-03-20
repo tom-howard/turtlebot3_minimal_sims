@@ -4,7 +4,7 @@ Very basic simulations for a TurtleBot3 Waffle.
 
 Currently includes:
 
-1. A "headless" simulation (i.e. no graphical user interface)
+1. A "headless" simulation (i.e. no graphical user interface):
     
     ```bash
     ros2 launch turtlebot3_minimal_sims headless.launch.py
@@ -28,4 +28,4 @@ git clone https://github.com/tom-howard/turtlebot3_minimal_sims.git
 cd ~/ros2_ws/ && colcon build --packages-select turtlebot3_minimal_sims && source ~/.bashrc
 ```
 
-Run with `ros2 launch` as above.
+Run a sim with `ros2 launch` as above.
